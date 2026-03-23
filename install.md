@@ -14,6 +14,7 @@ python3 -m venv .venv
 source .venv/bin/activate
 pip install torch --index-url https://download.pytorch.org/whl/cu128
 pip install numpy sentencepiece huggingface-hub datasets tqdm
+python3 data/cached_challenge_fineweb.py --variant sp1024 --train-shards 1
 ```
 
 should be ready to run
