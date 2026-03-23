@@ -7,7 +7,9 @@ first test
 
 go to a project folder
 
+
 ```bash
+git clone https://github.com/thomis10/parameter-golf-thomis10/
 python3 -m venv .venv
 source .venv/bin/activate
 pip install torch --index-url https://download.pytorch.org/whl/cu128
