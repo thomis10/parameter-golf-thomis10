@@ -1,8 +1,11 @@
 To install create a virtual environment and install the dependencies:
 
+
+
 first test 
     ```nvidia-smi``` 
 
+go to a project folder
 
 ```bash
 python3 -m venv .venv
